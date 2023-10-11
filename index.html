@@ -8,8 +8,19 @@
 <body>
 <table class="calculator" >
   <tr>
-    <td colspan="5"> <input class="display-box" type="text" id="result" disabled /> </td>
+    <td colspan="5"> <input class="display-box" type="text" id="inputText" disabled /> </td>
     <!-- clearScreen() function clear all the values -->
+    
+  </tr>
+  <tr>
+    <td colspan="5"> <input class="display-box" type="text" id="result" disabled /> </td>
+  </tr>
+  <tr>
+    <td><input type = "button" value = "log(" onclick = "display('ln(')"/></td>
+    <td><input type = "button" value = "sin(" onclick = "display('sin(')"/></td>
+    <td><input type = "button" value = "cos(" onclick = "display('cos(')"/></td>
+    <td><input type = "button" value = "tan(" onclick = "display('tan(')"/></td>
+    <td><input type = "button" value = ")" onclick = "display(')')"/></td>
   </tr>
 <tr>
   <!-- display() function display the value of clicked button -->
@@ -37,8 +48,9 @@
 <tr>
   <td> <input type="button" value="0" onclick="display('0')" /> </td>
   <td> <input type="button" value="." onclick="display('.')" /> </td>
+  <td> <input type="button" value="pow" onclick="display('**')" /> </td>
+  <td> <input type="button" value="sq" onclick="display('sqrt(')" /> </td>
   <!-- calculate() function evaluate the mathematical expression -->
-  <!-- <td></input type = "button" value = "sin" onclick = "calcSin()"/></td> -->
   <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
 </tr>
 </table>
