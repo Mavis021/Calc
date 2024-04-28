@@ -2,7 +2,7 @@
 <hr>
 A calculator simulation supporting trigonometric functions as well.  
 
-Available at : https://super-biscochitos-9ae57b.netlify.app/
+Available at : https://mavis021calc.netlify.app/
 
 ## How to Use
 <hr>
